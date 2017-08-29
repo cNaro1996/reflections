@@ -9,3 +9,7 @@ The staging area is where you add files to be added to the next commit. It is no
 How can you use the staging area to make sure you have one commit per logical change?
 
 You can use git add to load a single file to the staging area and then compare it using git diff --status or whatever to compare it to the most recent commit or git diff to compare it to what you're working on.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches are great for logical changes that would interfere with regular commit progression if they did not have their own section of commit progressions to work from. An example would be a spanish version of a particular game that has all the same features of the game except that it's in spanish. It would be logical to make a new branch for this so that changes that must be made in spanish can be kept seperate from the english version.
